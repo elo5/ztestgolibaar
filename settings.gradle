@@ -1,0 +1,2 @@
+include ':app'//, ':tun2socks', ':tun2socks-sources'
+rootProject.name = "ZTestGoLibAar"
