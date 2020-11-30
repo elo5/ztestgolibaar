@@ -8,7 +8,7 @@ android {
 
     defaultConfig {
         applicationId "com.example.ztestgolibaar"
-        minSdkVersion 21
+        minSdkVersion 29
         targetSdkVersion 30
         versionCode 1
         versionName "1.0"
@@ -40,13 +40,13 @@ android {
 }
 
 dependencies {
-//    implementation project(path: ':tun2socks-sources')
-//    implementation project(path: ':tun2socks')
+    implementation project(path: ':tun2socks-sources')
+    implementation project(path: ':tun2socks')
 //    implementation fileTree(include: ['local.aar'], dir: 'libs')
 //    implementation fileTree(include: ['tun2socks.aar'], dir: 'libs')
 
-    implementation fileTree(include: ['*.aar'], dir: 'libs')
-    implementation fileTree(include: ['*.jar'], dir: 'libs')
+//    implementation fileTree(include: ['*.aar'], dir: 'libs')
+//    implementation fileTree(include: ['*.jar'], dir: 'libs')
     implementation 'androidx.appcompat:appcompat:1.2.0'
     implementation 'com.google.android.material:material:1.1.0'
     implementation 'androidx.constraintlayout:constraintlayout:2.0.4'
